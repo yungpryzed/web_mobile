@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  min-height: 40vh;
+  padding: 2rem;
+  background: #5f96c9; // azzurro sfondo
+  border: 4px solid #23486b;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #0e2233;
+
+  h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2rem;
+  }
+
+  > p {
+    margin: 0 0 1.5rem 0;
+    font-size: 1rem;
+  }
+
+  // disposizione verticale: prima foto, poi bio
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

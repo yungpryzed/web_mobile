@@ -1,0 +1,15 @@
+.center-container {
+    display: flex;              /* Definisce l'elemento come flex container [1] */
+    justify-content: center;    /* Allinea orizzontalmente gli elementi al centro del container flex [2] */
+    align-items: center;        /* Allinea verticalmente gli elementi al centro del container flex [3] */
+    
+    height: 100vh;              
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
