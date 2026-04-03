@@ -2,6 +2,7 @@
 
 # Dependencies
 node_modules/
+backend/
 
 # Build output
 dist/
